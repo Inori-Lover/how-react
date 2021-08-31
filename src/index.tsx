@@ -1,8 +1,10 @@
-import ReactDOM from 'react-dom';
-export { inori } from '~/src/util/inori';
-
-import { App } from './app';
+import { inori } from './inori';
 
 const app = document.createElement('div');
 document.body.append(app);
-ReactDOM.render(<App />, app);
+
+function App() {
+  return <h1>Hello world!</h1>;
+}
+
+inori.render(<App />, app);

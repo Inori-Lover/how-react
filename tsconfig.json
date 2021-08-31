@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "importHelpers": true,
     "isolatedModules": true,
+    "jsxImportSource": "./inori",
 
     "sourceMap": true,
     "baseUrl": ".",
