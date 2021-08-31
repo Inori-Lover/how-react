@@ -1,1 +1,1 @@
-export { react } from '~/util/react';
+export { react } from '~/src/util/react';
